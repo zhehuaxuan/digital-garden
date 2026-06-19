@@ -1,5 +1,5 @@
 {
-  "buildCommand": "rm -rf .quartz-cache && npm run quartz build",
+  "buildCommand": "node ./quartz/bootstrap-cli.mjs build",
   "outputDirectory": "public",
   "installCommand": "npm install",
   "framework": null,
