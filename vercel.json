@@ -2,8 +2,5 @@
   "buildCommand": "node ./quartz/bootstrap-cli.mjs build",
   "outputDirectory": "public",
   "installCommand": "npm install",
-  "framework": null,
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
-  ]
+  "framework": null
 }
