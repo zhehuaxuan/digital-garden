@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm run quartz build",
+  "outputDirectory": "public",
+  "installCommand": "npm install",
+  "framework": null
+}
