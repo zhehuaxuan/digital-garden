@@ -1,4 +1,5 @@
-#!/usr/bin/env -S node --no-deprecation
+#!/usr/bin/env node
+// @ts-check
 const [major] = process.versions.node.split(".").map(Number)
 if (major < 22) {
   console.error(

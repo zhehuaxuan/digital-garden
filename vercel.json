@@ -1,6 +1,9 @@
 {
-  "buildCommand": "npm run install-plugins && npm run quartz build",
+  "buildCommand": "npm run quartz build",
   "outputDirectory": "public",
   "installCommand": "npm install",
-  "framework": null
+  "framework": null,
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
