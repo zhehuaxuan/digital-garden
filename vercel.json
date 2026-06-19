@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run quartz build",
+  "buildCommand": "mkdir -p .quartz-cache && npm run install-plugins && npm run quartz build",
   "outputDirectory": "public",
   "installCommand": "npm install",
   "framework": null,
